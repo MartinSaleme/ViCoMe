@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+
+body {
+  font-family: "lato", sans-serif;
+  color: white;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(87, 156, 96));
+}
+
+p {
+  font-size: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: rgb(0, 128, 32);
+  padding: 20px 10px;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+
+.navbar {
+  background-color: rgb(0, 88, 22);
+  height: 70px;
+  padding: 0 30px;
+}
+
+.navbar h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  padding: 9px;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.showcase {
+  height: 300px;
+  background-color: rgb(0, 128, 32);
+}
+
+.showcase p {
+  margin-bottom: 30px;
+}
+
+.showcase-form {
+  padding-left: 7px;
+}
+
+.grid-item-1{
+  position: relative;
+  top: 50px;
+}
+
+.grid-item-2 {
+  position: relative;
+  top: 50px;
+}
+
+.grid {
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+
+.showcase input[type='email'] {
+  padding: 10px 70px 10px 0;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 12px 20px;
+  background: rgb(0, 88, 22);
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icons {
+  color: rgb(255, 255, 255);
+  padding: 9px;
+  margin: 0 10px;
+}
+
+
+
+.showcase-form {
+  margin: auto;
+}
+
+.little-info {
+  font-size: 15px;
+  font-family: "poppins", sans-serif;
+
+}
+
+.lower-container {
+  margin: 120px auto;
+  padding: 0;
+  max-width: 1400px;
+  text-align: center;
+}
+
+
+.title {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.title-general {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.text {
+  color: black;
+  font-size: 19px;
+  width: 100%;
+  padding: 10px;
+  margin: 0, 20px;
+  text-align: justify;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats {
+  padding: 45px 50px;
+  text-align: center;
+}
+
+.stat {
+  margin: 0 30px;
+  text-align: center;
+  width: 800px;
+  border: 10px outset #cccccc;
+  background-color: #cccccc;
+}
+
+.stat-sobrenosotros {
+  margin: 0 30px;
+  text-align: center;
+  width: 800px;
+  border: 10px outset rgb(0, 88, 22);
+  background-color: rgb(0, 128, 32);
+}
+
+.text-sobrenosotros {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  width: 100%;
+  padding: 10px;
+  margin: 0, 20px;
+  text-align: justify;
+
+}
+
+ .a-sobremexico {
+  color: rgb(255, 255, 255);
+  padding: 9px;
+  margin: 0 10px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.h1-ayuda {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* Tablets*/
+@media(max-width: 768px) {
+  .grid,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .stats .flex {
+    flex-direction: column;
+  }
+
+  .stats {
+    text-align: center;
+  }
+
+  .stat {
+    width: 100%;
+    padding-right: 80px;
+  }
+
+  .stat-sobrenosotros {
+    width: 100%;
+    padding-right: 80px;
+  }
+
+
+  .showcase {
+    height: auto;
+    text-align: center;
+  }
+
+
+}
+
+/* dispositivos mobiles */
+
+@media(max-width: 500px) {
+  .navbar {
+    height: 100px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar a:hover {
+    color: white;
+    border-bottom: 2px solid black;
+  }
+
+  .navbar ul {
+    background: #525252;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+
+  .showcase {
+    height: auto;
+    text-align: center;
+  }
+
+  .little-info {
+    font-size: 13px;
+  }
+
+
+  .stat {
+    margin-bottom: 40px;
+  }
+
+  .stat-sobrenosotros {
+    margin-bottom: 40px;
+  }
+
+}
