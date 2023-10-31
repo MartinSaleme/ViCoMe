@@ -1,0 +1,44 @@
+.lower-container {
+    margin: 120px auto;
+    padding: 0;
+    max-width: 1400px;
+    text-align: center;
+  }
+  
+  
+  .title {
+    color: $color-title;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .title-general {
+    color: $color-title;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .text {
+    color: $color-text;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0, 20px;
+    text-align: justify;
+  
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stats {
+    padding: 45px 50px;
+    text-align: center;
+  }
+  

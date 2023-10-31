@@ -1,0 +1,33 @@
+/* Tablets*/
+@media(max-width: 768px) {
+    .grid,
+    .grid-3 {
+      grid-template-columns: 1fr;
+    }
+  
+    .stats .flex {
+      flex-direction: column;
+    }
+  
+    .stats {
+      text-align: center;
+    }
+  
+    .stat {
+      width: 100%;
+      padding-right: 80px;
+    }
+  
+    .stat-sobrenosotros {
+      width: 100%;
+      padding-right: 80px;
+    }
+  
+  
+    .showcase {
+      height: auto;
+      text-align: center;
+    }
+  
+  
+  }

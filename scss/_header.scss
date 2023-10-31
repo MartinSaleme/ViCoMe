@@ -1,0 +1,100 @@
+.navbar {
+    background-color: $color-navbar;
+    height: 70px;
+    padding: 0 30px;
+
+            h1 {
+        font-size: 30px;
+        font-weight: 300;
+        margin: 10px 0;
+        line-height: 1.2;
+                }
+
+                .flex {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+                        }
+
+                    ul {
+                    display: flex;
+                        }   
+        
+                         a {
+                            color: rgb(255, 255, 255);
+                            padding: 9px;
+                            margin: 0 10px;
+                            &:hover {
+                                border-bottom: 3px solid rgb(255, 255, 255);}
+                            }                   
+            }
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+  .showcase {
+    height: 300px;
+    background-color: $color-showcase;
+        p {
+        margin-bottom: 30px;
+      }
+        input[type='email'] {
+        padding: 10px 70px 10px 0;
+        font-size: 14px;
+        border: none;
+        border-radius: 6px;
+        padding-left: 6px;
+      }
+
+  }
+  
+  .showcase-form {
+    padding-left: 7px;
+    margin: auto;
+  }
+
+  .grid-item-1{
+    position: relative;
+    top: 50px;
+  }
+  
+  .grid-item-2 {
+    position: relative;
+    top: 50px;
+  }
+  
+  .grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .little-info {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+  
+  }
+
+  .btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: rgb(0, 88, 22);
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }

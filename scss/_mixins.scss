@@ -1,0 +1,17 @@
+@mixin sts($border, $background-color) {
+        margin: 0 30px;
+        text-align: center;
+        width: 800px;
+        border: 10px outset $border;
+        background-color: $background-color;
+      }
+
+ .stat {
+    @include sts($color-stat, $color-stat);
+ }
+ 
+
+ .stat-sobrenosotros {
+    @include sts($color-statsobrenosotrosBorder, $color-statsobrenosotrosBG);
+
+  }

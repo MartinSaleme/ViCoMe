@@ -1,0 +1,24 @@
+footer {
+    background-color: $color-footer;
+    padding: 20px 10px;
+        a {
+        color: white;
+        margin: 0 10px;
+            &:hover {
+            border-bottom: 3px solid rgb(255, 255, 255);
+        }
+    }
+}
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .icons {
+    color: $color-icons;
+    padding: 9px;
+    margin: 0 10px;
+  }
+  
